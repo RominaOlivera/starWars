@@ -34,7 +34,7 @@ export function getCharacters(){
  }
  export function getDetail(id){
     return async function(dispatch){
-        var json= await axios (`${process.env.REACT_APP_STAR}/${id}`)
+        var json= await axios (`${process.env.REACT_APP_STAR}${id}`)
 
         return dispatch({
             type: "GET_DETAIL",
