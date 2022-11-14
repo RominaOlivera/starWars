@@ -26,7 +26,7 @@ To run the application locally you must follow these steps:
 ### DEPLOY
 
 
-Here you can enter to see the app 
+Here you can enter to see the app [STAR WARS APP] (https://star-wars-a.vercel.app)
 
 
 
