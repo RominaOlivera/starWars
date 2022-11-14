@@ -1,0 +1,32 @@
+body{
+    
+    
+    background-image: url("./startwars.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 130vh;
+    overflow-x: hidden;
+    
+    
+    
+}
+
+
+.mt-15{
+    margin-top: 30px ;
+
+}
+
+.mt{
+    margin-top: 100px ;
+    margin-left: 580px;
+}
+.m{
+    margin-top: 50px ;
+    margin-left:320px ;
+}
+.ml{
+    margin-left:650px ;
+}
