@@ -6,7 +6,7 @@ export const GET_DETAIL="GET_DETAIL"
 
 export function getCharacters(){
     return async function(dispatch){
-        var json= await axios.get("http://localhost:3001/characters")
+        var json= await axios.get(`${process.env.REACT_APP_STAR}/characters`)
         return dispatch({
             type: GET_CHARACTERS,
             payload: json.data
@@ -23,7 +23,7 @@ export function getCharacters(){
 
  export function getFilterName(name){
     return async function(dispatch){
-        var json= await axios.get(`http://localhost:3001/characters?name=${name}`)
+        var json= await axios.get(`${process.env.REACT_APP_STAR}/characters?name=${name}` )
         return dispatch({
             type: GET_NAME,
             payload: json.data
@@ -34,7 +34,7 @@ export function getCharacters(){
  }
  export function getDetail(id){
     return async function(dispatch){
-        var json= await axios (`http://localhost:3001/${id}`)
+        var json= await axios (`${process.env.REACT_APP_STAR}/${id}`)
 
         return dispatch({
             type: "GET_DETAIL",
